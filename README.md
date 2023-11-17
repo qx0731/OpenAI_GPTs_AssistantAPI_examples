@@ -39,3 +39,6 @@ Follow along with a YouTube tutorial to create an end-to-end (toy) chatbot using
 - **Files:** [Assistant API v1 Repository](https://github.com/qx0731/OpenAI_GPTs_AssistantAPI_examples/tree/main/assistant_api_v1)
 - **Reference Video:** [Building and Deploying a Chatbot](https://www.youtube.com/watch?v=Kn6k6ocEaK4)
 
+### Finally, take a look at the last section of the additional settings in GPTs.
+<img src="https://github.com/qx0731/OpenAI_GPTs_AssistantAPI_examples/blob/main/proprietary.png" width=40%>
+
