@@ -1,6 +1,6 @@
 # OpenAI GPTs Assistant API Examples
 
-Welcome to the repository showcasing examples utilizing OpenAI tools. I strongly recommend running through the provided sample code and viewing the referenced instructional videos for a comprehensive understanding.
+Welcome to the repository showcasing examples utilizing OpenAI tools. I strongly recommend running through the provided sample code and **viewing the referenced instructional videos** for a comprehensive understanding. Thanks to the video creaters for sharing their knowledge. 
 
 ## Prerequisites: 
 - **Obtain an OpenAI API Key:** Secure and save your `OPENAI_API_KEY='sk-'` in an `.env` file. You can obtain your API key from [OpenAI API-keys](https://platform.openai.com/api-keys). 
