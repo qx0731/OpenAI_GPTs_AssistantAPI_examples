@@ -8,7 +8,7 @@ from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv()) # read local .env file
 api_key = os.environ['OPENAI_API_KEY']
 
-## step0: generate file 
+## step0: generate a fake file as the knowledge to upload 
 # fake = Faker()
 
 # # Define some sample categories
