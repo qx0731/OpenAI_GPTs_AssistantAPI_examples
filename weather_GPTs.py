@@ -1,4 +1,4 @@
-# GPT_link = https://chat.openai.com/g/g-6C9sOJ2rW-skywatcher
+# Final_GPT_link = https://chat.openai.com/g/g-6C9sOJ2rW-skywatcher
 # reference_link = https://www.youtube.com/watch?v=wGQoQutFsQg&t=237s
 
 action_schema = {
