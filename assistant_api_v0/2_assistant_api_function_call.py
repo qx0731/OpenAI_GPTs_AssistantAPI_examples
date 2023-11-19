@@ -1,4 +1,4 @@
-# something 
+# print out a lot of things to make thing clear 
 import os
 import time
 from datetime import datetime, timedelta
