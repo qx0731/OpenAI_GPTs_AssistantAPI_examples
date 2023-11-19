@@ -6,7 +6,6 @@ import json
 
 def get_flight_info(loc_origin, loc_destination):
     """Get flight information between two locations."""
-
     # Example output returned from an API or database
     flight_info = {
         "loc_origin": loc_origin,
@@ -21,7 +20,6 @@ def get_flight_info(loc_origin, loc_destination):
 
 def book_flight(loc_origin, loc_destination, date, airline):
     """Book a flight based on flight information."""
-
     # Example output returned from an API or database
     book_info = {
         "loc_origin": loc_origin,
@@ -36,7 +34,6 @@ def book_flight(loc_origin, loc_destination, date, airline):
 
 def file_complaint(name, email, text):
     """File a complaint as a customer."""
-
     # Example output returned from an API or database
     complaint_info = {
         "customername": name,
