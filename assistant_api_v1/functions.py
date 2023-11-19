@@ -14,7 +14,7 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 
 # Add lead to Airtable
 def create_lead(name, phone, address):
-  url = "https://api.airtable.com/v0/appEhVj4FvRTwq5Ts/Leads"  # Change this to your Airtable API URL
+  url = "https://api.airtable.com/v0/appEhVj4FvRTwq5Ts/Leads"  # Change this to your Airtable API URL, the app* part mostly
   headers = {
       "Authorization": AIRTABLE_API_KEY,
       "Content-Type": "application/json"
@@ -35,7 +35,7 @@ def create_lead(name, phone, address):
   else:
     print(f"Failed to create lead: {response.text}")
 
-#
+
 # Get coordidinates from address via Geocoding API
 def get_coordinates(address):
   geocoding_url = f"https://maps.googleapis.com/maps/api/geocode/json?address={address}&key={GOOGLE_CLOUD_API_KEY}"
@@ -226,7 +226,7 @@ def create_assistant(client):
         ],
         file_ids=[file.id])
 
-    # Create a new assistant.json file to load on future runs
+    # Create a new assistant.json file to load on future runs, this is good, otherwise, everything we run, we will create a new assistant 
     with open(assistant_file_path, 'w') as file:
       json.dump({'assistant_id': assistant.id}, file)
       print("Created a new assistant and saved the ID.")
